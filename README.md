@@ -24,8 +24,7 @@
 
 ## 🛠️ System Architecture
 
-![System Architecture Placeholder](images/architecture.png)
-*(Note: Upload Figure 3 from your report here)*
+![System Architecture Placeholder](images/Screenshot 2026-03-20 010702.png)
 
 ### Phase 1: Machine Vision Preprocessing (OpenCV)
 [cite_start]To ensure the CNN receives high-signal input rather than noise-dominated empty space, all images pass through an automated cropping sequence[cite: 224, 225]:
@@ -67,8 +66,8 @@
 | **Barred** | 0.90 |
 | **Irregular** | 0.95 |
 
-![ROC Curves Placeholder](images/roc_curves.png)
-*(Note: Upload Figure 8 from your report here)*
+![ROC Curves Placeholder](images/Screenshot 2026-03-20 010716.png)
+
 
 ### Interpretability
 [cite_start]Feature map visualization (Layer `conv2d_4`) confirms the network mimics biological vision hierarchically—successfully identifying galactic cores (bulges) as central blobs, and recognizing textured high-frequency spatial changes corresponding to spiral arms[cite: 679, 701, 703, 705].
