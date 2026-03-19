@@ -22,10 +22,11 @@ Standard image recognition models struggle with astronomical data due to two pri
 
 ---
 
+![Overview](./images/overview.png)
+
 ## 🧠 System Architecture
 
 ![System Architecture Diagram](./images/architecture.png)
-[cite_start]*(Note: Upload Figure 3 from your report here)* [cite: 243]
 
 The solution is divided into a robust two-stage pipeline:
 
@@ -70,11 +71,12 @@ The model achieved highly competitive results, proving its viability for pre-fil
 * [cite_start]**Spiral:** 0.92 AUC [cite: 477]
 * [cite_start]**Barred:** 0.90 AUC [cite: 477]
 
-![ROC Curves](./images/roc_curve.png)
-[cite_start]*(Note: Upload Figure 8 from your report here)* [cite: 480]
+![ROC Curves](./images/roc.png)
 
 ### Interpretability
 [cite_start]Internal feature map visualizations from `conv2d_4` confirm that the network organically learned to identify galactic cores (bulges) as central blobs, while deeper filters activated on the high-frequency textural changes of spiral arms[cite: 679, 680, 701, 702, 703].
+
+![Final Output](./images/image.png)
 
 ---
 
